@@ -1,0 +1,171 @@
+header {
+    display: grid;
+    grid-template-columns: 5fr repeat(5,1fr);
+    align-items: center;
+
+    
+}
+.navmenu {
+    display: contents;
+}
+.navmenu a {
+    font-family: Montserrat;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+}
+.navmenu a:hover {
+    color: orange;
+}
+#home {
+    background:no-repeat center/100% url(images/Rectangle\ 48.png);
+    height:619px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 75px;
+  
+}
+h4 {
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+}   
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+.contenu1 {
+    margin-left: 100px;
+    align-content: center;
+}
+.contenu2 {
+    margin-right: 100px;
+}
+h1 {
+    margin-left: 100px;
+}
+hr {
+    text-align: center;
+    width: 884px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+h5 {
+    margin-left: 100px;
+}
+h2 {
+    margin-right: 100px;
+}
+h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+}
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 100px;
+    grid-template-rows: repeat(5,20%);
+    height: 500px;
+}
+.Ingrédient {
+    grid-column-start: 2;
+    
+}
+.contenu3 {
+    display: contents;
+}
+.Quantité1 {
+    grid-column-start: 4;
+    grid-row-start: 1;    
+}
+.Quantité2 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.Quantité3 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+
+}
+.Quantité4 {
+    grid-column-start: 4;
+    grid-row-start: 4;
+
+}
+SELECT {
+    width: 200px;
+}
+.Frites {
+    margin-left: 100px;
+}
+h6 {
+    margin-right: 350px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+.désserts {
+    margin-right: 200px;
+}
+.container3 {
+    margin-left: 100px;
+}
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+.contenu4  {
+    margin-right: 200px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}  
+.button {
+    margin-right: 100px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border-radius: 35%;
+}

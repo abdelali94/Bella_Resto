@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella resto</title>
+    <link href="styles2.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="images/Bella logo.png" alt="logo"/>
+        </div>    
+            <nav class="navmenu">
+                <a href="#home">Home</a>
+                <a href="#titre">Pizza</a>
+                <a href="#burger">Burger</a>
+                <a href="#salade">Salade</a>
+                <a href="#contact">Contact</a>
+            </nav>
+    </header>
+    <main>
+        <div id="home">
+            <h3>Food app</h3>
+            <h4>Chez Bella<br/>chaque désir s'additionne</h4>
+        </div>
+      
+    <h1>Vos informations</h1>
+    <div class="container1"> 
+        <form action="" method="post">
+            <div class="contenu1">
+                    <div>
+                        <label for="name">Nom <br/></label>
+                        <input placeholder="Nom" type="text" id="name" name="user_name">
+                    </div>
+                </form>
+                <form action="" method="post">
+                    <div>
+                        <label for="phone">Téléphone <br/></label>
+                        <input placeholder="Téléphone" type="text" id="phone" name="phone_number">
+                    </div>
+                </form>
+            </div>
+            <div>
+        <form action="" method="post">
+                <div class="contenu2">
+                    <label for="surname">Prénom <br/></label>
+                    <input placeholder="Prénom" type="text" id="surname" name="user_surname">
+                </div>
+            </form>
+            <form action="" method="post">
+                <div>
+                    <label for="mail">Email <br/></label>
+                    <input placeholder="Email" type="text" id="mail" name="user_mail">
+                </div>
+        </form>
+        </div>
+        </div>
+        <hr/>
+        <div class="menu">
+            <div>
+                <h1>Votre commande</h1>
+            </div>
+            <div>
+                <h2>Pizza 4 Fromages</h2>
+            </div>    
+        </div>
+        <h5>Suppléments</h5>
+        <div class="container2"> 
+            <div class="contenu3">
+                <form class="Ingrédient" action="" method="post">
+                    <label for="Ingrédient1">Ingrédient1 </br></label>
+                    
+                    <SELECT name="nom" size="1">
+                        <OPTION>Fromage
+                        <OPTION>edam
+                        <OPTION>gouda
+                        <OPTION>mozarella
+                        
+                    </SELECT>
+                </form>
+                <form class="Ingrédient" action="" method="post">
+                    <label for="Ingrédient2">Ingrédient2 </br></label>
+                    <SELECT name="nom" size="1">
+                        <OPTION>Fromage
+                        <OPTION>edam
+                        <OPTION>gouda
+                        <OPTION>mozarella
+                       
+                        </SELECT>
+                </form>
+                <form class="Ingrédient" action="" method="post">
+                    <label for="Ingrédient3">Ingrédient3 </br></label>
+                    <SELECT name="nom" size="1">
+                        <OPTION>Fromage
+                        <OPTION>edam
+                        <OPTION>gouda
+                        <OPTION>mozarella
+                        
+                        </SELECT>
+                </form>
+                <form class="Ingrédient" action="" method="post">
+                    <label for="Ingrédient4">Ingrédient4 </br></label>
+                    <SELECT name="nom" size="1">
+                        <OPTION>Fromage
+                        <OPTION>edam
+                        <OPTION>gouda
+                        <OPTION>mozarella
+                        
+                        </SELECT>
+                </form>
+            </div>
+            
+                <form class="Quantité1" action="" method="post">
+                    <label for="Quantité">Quantité </br></label>
+                    <input type="number" placeholder="1" id="Quantité" name="Quantité">
+                </form>
+                <form class="Quantité2" action="" method="post">
+                    <label for="Quantité">Quantité </br></label>
+                    <input type="number" placeholder="1" id="Quantité" name="Quantité">
+                </form>
+                <form class="Quantité3" action="" method="post">
+                    <label for="Quantité">Quantité </br></label>
+                    <input type="number" placeholder="1" id="Quantité" name="Quantité">
+                </form>
+                <form class="Quantité4" action="" method="post">
+                    <label for="Quantité">Quantité</br></label>
+                    <input type="number" placeholder="1" id="Quantité" name="Quantité">
+                </form>  
+        </div>
+
+        <div class="Frites">
+        <input type="radio"  name="Avec_Frites" value="Avec_Frites" checked>
+        <label for="Avec_Frites">Avec Frites</label><br>
+        <input type="radio"  name="Avec_Frites" value="Sans_Frites">
+        <label for="Sans_Frites">Sans Frites</label><br>
+        </div>
+        <div class="menu2">
+            <div>
+                <h5>Boissons</h5>
+            </div>
+            <div>
+                <h6>Désserts</h6>
+            </div>    
+        </div>
+        <div class="container3">
+            <div>
+                <input type="checkbox"  id="Coca-Cola" name="Coca-Cola" value="Coca-Cola">
+                <label for="Coca-Cola">Coca-Cola</label>
+                <SELECT name="nom" size="1">
+                    <OPTION>1
+                    <OPTION>2
+                    <OPTION>3
+                    <OPTION>4
+                    </SELECT>
+                <br>
+                <input type="checkbox" id="Fanta" name="Fanta" value="Fanta">
+                <label for="Fanta">Fanta&emsp;&emsp;</label>
+                <SELECT name="nom" size="1">
+                    <OPTION>1
+                    <OPTION>2
+                    <OPTION>3
+                    <OPTION>4
+                    </SELECT>
+                <br>
+                <input type="checkbox" id="Eau" name="Eau" value="Eau">
+                <label for="Eau">Eau&emsp;&emsp;&ensp;&thinsp;</label>
+                <SELECT name="nom" size="1">
+                    <OPTION>1
+                    <OPTION>2
+                    <OPTION>3
+                    <OPTION>4
+                    </SELECT>
+                <br>
+            </div>    
+            <div class="désserts">
+                <input type="checkbox" id="Tiramisu" name="Tiramisu" value="Tiramisu">
+                <label for="Tiramisu">Tiramisu&thinsp;&emsp;&emsp;</label>
+                <SELECT name="nom" size="1">
+                    <OPTION>1
+                    <OPTION>2
+                    <OPTION>3
+                    <OPTION>4
+                    </SELECT>
+                <br>
+                <input type="checkbox" id="Cheese-cake" name="Cheese-cake" value="Cheese-cake">
+                <label for="Cheese-cake">Cheese-cake&thinsp;&ensp;</label>
+                <SELECT name="nom" size="1">
+                    <OPTION>1
+                    <OPTION>2
+                    <OPTION>3
+                    <OPTION>4
+                    </SELECT>
+                <br>
+                <input type="checkbox" id="Tarte au fraise" name="Tarte au fraise" value="Tarte au fraise">
+                <label for="Tarte au fraise">Tarte au fraise</label>
+                <SELECT name="nom" size="1">
+                    <OPTION>1
+                    <OPTION>2
+                    <OPTION>3
+                    <OPTION>4
+                    </SELECT>
+                <br>
+            </div>
+        </div> 
+        <hr/> 
+        <h1>Adresse de livraison</h1> 
+        <div class="container4"> 
+            <form action="" method="post">
+                <div class="contenu1">
+                        <div>
+                            <label for="name">Nom <br/></label>
+                            <input placeholder="Nom" type="text" id="name" name="user_name">
+                        </div>
+                    </form>
+                    <form action="" method="post">
+                        <div>
+                            <label for="phone">Téléphone <br/></label>
+                            <input placeholder="Téléphone" type="text" id="phone" name="phone_number">
+                        </div>
+                    </form>
+                </div>
+                <div>
+            <form action="" method="post">
+                    <div class="contenu4">
+                        <label for="surname">Prénom <br/></label>
+                        <input placeholder="Prénom" type="text" id="surname" name="user_surname">
+                    </div>
+                </form>
+                <form action="" method="post">
+                    <div>
+                        <label for="mail">Email <br/></label>
+                        <input placeholder="Email" type="text" id="mail" name="user_mail">
+                    </div>
+            </form>
+            </div>
+            </div>
+            <div class="container4"> 
+                <form action="" method="post">
+                    <div class="contenu1">
+                            <div>
+                                <label for="Adresse">Adresse<br/></label>
+                                <input placeholder="Adresse" type="text" id="Adresse" name="Adresse">
+                            </div>
+                        </form>
+                        <form action="" method="post">
+                            <div>
+                                <label for="Ville">Ville<br/></label>
+                                <input placeholder="Ville" type="text" id="Ville" name="Ville">
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                <form action="" method="post">
+                        <div class="contenu4">
+                            <label for="Code Postale">Code Postale<br/></label>
+                            <input placeholder="Code Postale" type="text" id="Code Postale" name="Code Postale">
+                        </div>
+                    </form>
+                    <form action="" method="post">
+                        <div>
+                            <label for="Pays">Pays<br/></label>
+                            <input placeholder="Pays" type="text" id="Pays" name="Pays">
+                        </div>
+                </form>
+                </div>
+                </div>
+
+             <div class="footer">
+                <div class="button" >
+                     <button style="background-color: orange;">Envoyer
+
+                     </button>
+                </div>
+
+
+             </div>   
+    </main>
+</body>     
